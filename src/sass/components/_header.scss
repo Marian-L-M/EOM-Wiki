@@ -1,0 +1,18 @@
+$nav-height: 80px; // Handle via grid later on
+nav {
+  width: 100%;
+  height: $nav-height;
+  justify-content: space-between;
+  align-items: center;
+  .header-logo {
+    margin-left: 2vw;
+    max-height: calc($nav-height * 0.6);
+  }
+  .nav-container {
+    list-style: none;
+    margin-right: 4vw;
+    li {
+      margin: 0 1vw;
+    }
+  }
+}

@@ -7,8 +7,10 @@ import {
 // import './App.css';
 import './css/style.css';
 import Header from './components/Header';
-import NotesListPage from './pages/NotesListPage';
-import NotePage from './pages/NotePage';
+import Footer from './components/Footer';
+import PageArea from './pages/PageArea';
+;
+
 ;
 
 
@@ -16,9 +18,12 @@ function App() {
   return (
     <Router>
       <Header />
-      <Routes >
-          < Route path='' exact element={<NotesListPage />} />
-      </Routes>
+        <main>
+          <Routes >
+              < Route path='' exact element={<PageArea />} />
+          </Routes>
+        </main>
+      <Footer />
     </Router>
   );
 }

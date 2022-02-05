@@ -1,0 +1,6 @@
+// Add mobile and screen rez compatibility
+main {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 90vh;
+}

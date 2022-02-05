@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  min-height: 100vh;
+}
+
 main.light-mode {
   background-color: var.$bg-white;
   color: var.$text-black;

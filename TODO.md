@@ -1,0 +1,1 @@
+- [ ] Checkout how React handles state (For DOM manipulation e.g. classname toggling) [Stackoverflow](https://stackoverflow.com/questions/36209432/how-to-dynamically-add-a-class-to-manual-class-names)
