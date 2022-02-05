@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;400;600;700&family=Cherish&family=Dancing+Script:wght@400;600;700&family=Noto+Sans+Mono:wght@300;400;600;900&family=Noto+Sans:wght@400;700&family=The+Nautigal:wght@400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #36454f;
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  margin: 0 0 0 0;
+  overflow-x: hidden;
+}
+
+main.light-mode {
+  background-color: #f5f5f5;
+  color: #25282a;
+}
+
+.fx-center-self {
+  align-self: center;
+  justify-self: center;
+}
+
+.fx-center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fx-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.fx-row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fx-col {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 11px;
+}
+
+@media screen and (min-width: 800px) {
+  p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;400;600;700&family=Cherish&family=Dancing+Script:wght@400;600;700&family=Noto+Sans+Mono:wght@300;400;600;900&family=Noto+Sans:wght@400;700&family=The+Nautigal:wght@400;700&display=swap");
+
+// Light cursive handwriting: 400/600/700
+// font-family: 'Dancing Script', cursive;
+$ft-hw-light: "Dancing Script", cursive;
+
+// Heavy cursive handwriting 400/700
+// font-family: 'The Nautigal', cursive;
+$ft-hw-heavy: "The Nautigal", cursive;
+
+// Obtuse cursive handwriting 400
+// font-family: 'Cherish', cursive;
+$ft-hw-obtuse: "Cherish", cursive;
+
+// Monoesque handwriting for display 100/400/600/700
+// font-family: 'Big Shoulders Display', cursive;
+$ft-hw-mono: "Big Shoulders Display", cursive;
+
+// Default mono for wiki info boxes 300/400/600/900
+// font-family: 'Noto Sans Mono', monospace;
+$ft-base-mono: "Noto Sans Mono", monospace;
+
+// Defaul font text 400/700
+// font-family: 'Noto Sans', sans-serif;
+$ft-base-sans: "Noto Sans", sans-serif;

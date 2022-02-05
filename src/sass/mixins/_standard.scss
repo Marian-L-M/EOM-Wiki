@@ -1,0 +1,14 @@
+// For mixins that are generally used in every project.
+@charset "UTF-8";
+
+@use "../variables" as var;
+
+// Place into the parent of <a> to strip browser styling：
+@mixin strip-a($a-color, $hover-color) {
+  a {
+    color: $a-color;
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}

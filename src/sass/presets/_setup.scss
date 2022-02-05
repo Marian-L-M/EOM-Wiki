@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@use "../variables" as var;
+
+//Global - Mobile Settings (Mobile first)
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var.$bg-black;
+  color: var.$text-white;
+  font-family: var.$ft-base-sans;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  margin: 0 0 0 0;
+  overflow-x: hidden;
+}
+
+main.light-mode {
+  background-color: var.$bg-white;
+  color: var.$text-black;
+}
+
+//----------Flex---------//
+.fx-center-self {
+  align-self: center;
+  justify-self: center;
+}
+.fx-center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fx-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.fx-row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fx-col {
+  display: flex;
+  flex-direction: column;
+}
+
+//----------Breaks---------//
+
+// Big smartphones
+@media screen and (min-width: 500px) {
+}
+
+// Tablet portrait
+@media screen and (min-width: 800px) {
+}
+
+// Tablet landscape
+@media screen and (min-width: 1000px) {
+}
+
+// Small ass screen
+@media screen and (min-width: 1200px) {
+}
+
+// Laptop screen
+@media screen and (min-width: 1400px) {
+}
+
+// Standard screen
+@media screen and (min-width: 1600px) {
+}
+
+// UHD screen
+@media screen and (min-width: 2000px) {
+}
+
+// 4k screen
+@media screen and (min-width: 3600px) {
+}
